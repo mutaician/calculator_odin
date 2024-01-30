@@ -1,0 +1,56 @@
+
+*{
+    background-color: rgb(168, 235, 235);
+}
+
+body{
+    height: 800px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.main-container{
+    width: 400px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 3px;
+    border: 7px solid;
+    border-color: rgb(7, 8, 8);
+    border-radius: 20px;
+    padding: 4px;
+
+}
+
+button {
+    height: 80px;
+    width: 80px;
+    border-radius: 35%;
+    margin: 5px;
+    font-size: 24px;
+    background-color: lightslategray;
+}
+
+.display{
+    align-self: center;
+    min-width: 370px;
+    font-size: 26px;
+    background-color: rgb(224, 237, 240);
+    margin: 10px;
+    padding: 8px;
+}
+
+.equals {
+    background-color: rgb(226, 116, 116);
+}
+
+.clear{
+    background-color: darkgray;
+}
+
+.op{
+    background-color: gold;
+}
